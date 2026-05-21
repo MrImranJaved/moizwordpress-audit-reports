@@ -1,0 +1,12 @@
+# Ignore all files by default to prevent accidental leak of unencrypted files
+*
+
+# Keep directories
+!*/
+
+# Allow README.md and .gitignore
+!README.md
+!.gitignore
+
+# Allow only encrypted PDFs
+!*.pdf.enc
